@@ -12,6 +12,7 @@ public class ParkingControlApplication {
 		SpringApplication.run(ParkingControlApplication.class, args);
 		System.out.println(new BCryptPasswordEncoder().encode("senha123"));
 
+
 	}
 
 }
